@@ -10,9 +10,12 @@
 		D381615C286F2CA2007940D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381615B286F2CA2007940D2 /* AppDelegate.swift */; };
 		D381615E286F2CA2007940D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381615D286F2CA2007940D2 /* SceneDelegate.swift */; };
 		D3816160286F2CA2007940D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381615F286F2CA2007940D2 /* ViewController.swift */; };
-		D3816163286F2CA2007940D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3816161286F2CA2007940D2 /* Main.storyboard */; };
+		D3816163286F2CA2007940D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3816161286F2CA2007940D2 /* Main.storyboard */; settings = {ASSET_TAGS = (ViewController, ); }; };
 		D3816165286F2CA4007940D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3816164286F2CA4007940D2 /* Assets.xcassets */; };
 		D3816168286F2CA4007940D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3816166286F2CA4007940D2 /* LaunchScreen.storyboard */; };
+		D3816176286F3CB1007940D2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3816175286F3CB1007940D2 /* Task.swift */; };
+		D3816179286F3FAA007940D2 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3816177286F3FAA007940D2 /* TaskCell.swift */; };
+		D381617A286F3FAA007940D2 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3816178286F3FAA007940D2 /* TaskCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D3816164286F2CA4007940D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3816167286F2CA4007940D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3816169286F2CA4007940D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3816175286F3CB1007940D2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D3816177286F3FAA007940D2 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		D3816178286F3FAA007940D2 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				D3816164286F2CA4007940D2 /* Assets.xcassets */,
 				D3816166286F2CA4007940D2 /* LaunchScreen.storyboard */,
 				D3816169286F2CA4007940D2 /* Info.plist */,
+				D3816175286F3CB1007940D2 /* Task.swift */,
+				D3816177286F3FAA007940D2 /* TaskCell.swift */,
+				D3816178286F3FAA007940D2 /* TaskCell.xib */,
 			);
 			path = "Luftborn-TaskExecutor";
 			sourceTree = "<group>";
@@ -94,6 +103,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					ViewController,
+				);
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D381617A286F3FAA007940D2 /* TaskCell.xib in Resources */,
 				D3816168286F2CA4007940D2 /* LaunchScreen.storyboard in Resources */,
 				D3816165286F2CA4007940D2 /* Assets.xcassets in Resources */,
 				D3816163286F2CA2007940D2 /* Main.storyboard in Resources */,
@@ -140,7 +153,9 @@
 			files = (
 				D3816160286F2CA2007940D2 /* ViewController.swift in Sources */,
 				D381615C286F2CA2007940D2 /* AppDelegate.swift in Sources */,
+				D3816176286F3CB1007940D2 /* Task.swift in Sources */,
 				D381615E286F2CA2007940D2 /* SceneDelegate.swift in Sources */,
+				D3816179286F3FAA007940D2 /* TaskCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
